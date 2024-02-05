@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="index.css";
+  </head>
+  <body>
+    <div id="parentElement">
+      1 parentElement
+      <div id="childElement">
+        2 childElement
+        <p id="previousSibling">3 previousSibling</p>
+        <p id="currentElement">4 Соседний элемент</p>
+        <p id="nextSibling">5 nextSibling</p>
+      </div>
+    </div>
+
+    <hr />
+
+    <div id="parentElement">
+      <div id="firstElement" class="exampleClass">1 First Element</div>
+      <div id="currentElement">2 Соседний элемент</div>
+      <div id="lastElement">3 Last Ele</div>
+    </div>
+
+    <hr />
+
+    <div id="parentElement">
+      <p id="firstChild" class="exampleClass">First Child</p>
+      <p id="exampleId">Second Child</p>
+      <p id="lastChild" class="exampleClass">Last Child</p>
+    </div>
+  </body>
+  <script src="./lesson1-DOM navigation.js"></script>
 </html>

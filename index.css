@@ -1,0 +1,53 @@
+#parentElement {
+  background-color: aquamarine;
+  display: flex;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  flex-direction: column;
+}
+
+#childElement {
+  background-color: rgb(152, 152, 225);
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#nextSibling {
+  background-color: yellow;
+}
+
+#previousSibling {
+  background-color: brown;
+}
+
+#firstElement {
+  background-color: yellow;
+}
+
+#lastElement {
+  background-color: brown;
+}
+
+#firstChild {
+  background-color: yellow;
+}
+
+#lastChild {
+  background-color: brown;
+}
+
+#currentElement{
+  background-color:chocolate
+}
+
+.exampleClass{
+  color: red;
+  border: 2px solid red;
+}
+
+#exampleId{
+  /* color: blue;
+  border: 2px solid red;  */
+}
