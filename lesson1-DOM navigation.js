@@ -3,16 +3,16 @@
 //1.Доступ к дочерним элементам:
 //parentNode: Получение родительского элемента.
 let parent = document.getElementById('childElement').parentNode;
-console.log(parent);
+// console.log(parent);
 
 //childNodes: Получение всех дочерних элементов (включая текстовые узлы).
 let children = document.getElementById('parentElement').childNodes;
-console.log(children);
+// console.log(children);
 
 
 //2.Доступ к элементам на одном уровне:
 let next = document.getElementById('currentElement').nextSibling;
-console.log(next)
+// console.log(next)
 let prev = document.getElementById('currentElement').previousSibling;
 
 
