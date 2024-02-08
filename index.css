@@ -58,7 +58,14 @@
 }
 
 .child {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   padding: 5px;
   margin: 5px;
+}
+
+.newClass{
+  border: 2px solid red; 
+}
+.width{
+  width: 100px;
 }
