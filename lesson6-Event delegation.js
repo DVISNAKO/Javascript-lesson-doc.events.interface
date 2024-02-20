@@ -6,6 +6,10 @@ document.querySelector('#parent').addEventListener('click', function(event){
     }
 })
 
+
+
+
+
 let parent = document.querySelector('#parent');
 
 class Menu {
@@ -26,6 +30,12 @@ class Menu {
         if(action){
             this[action]();
         }
+    /*Это метод класса, который будет вызываться при событии click на элементе. 
+    Он использует event.target для определения элемента, 
+    на котором произошло событие, и затем использует 
+    dataset.action для получения значения атрибута data-action. 
+    Если data-action существует, то вызывается соответствующий метод класса 
+    (this[action]()) в зависимости от значения data-action. */   
     }
 } 
 
