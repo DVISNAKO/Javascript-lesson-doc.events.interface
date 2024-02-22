@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="index.css";
   </head>
   <body>
-   
-<!-- <div class="parent" id="parent">
+    <!-- <div class="parent" id="parent">
     <div class="child" id="elem">First Child</div>
     <div class="child" >Second Child</div>
     <div class="child" >Third Child</div>
@@ -16,12 +15,34 @@
     <input type="button" class="btn" value="Загрузить" data-action="load">
     <input type="button" class="btn" value="Поиск" data-action="search">
 </div> -->
-    
-  <hr />
-  <div id="target">Click or move mouse over me</div>
 
-  <!-- <a href="https://www.example.com" id="link">Click me to prevent default</a> -->
-   
+    <style>
+      #parent {
+        background-color:aquamarine;
+        width: 300px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #target {
+        border: 1px solid rgb(25, 23, 23);
+        width: 200px;
+        height: 50px;
+      }
+      #target:hover {
+        background-color: aqua;
+      }
+    </style>
+
+    <hr />
+    <div id="parent">
+      <div id="target">Click or move mouse over me</div>
+    </div>
+    
+
+    <!-- <a href="https://www.example.com" id="link">Click me to prevent default</a> -->
   </body>
   <!-- <script src="./lesson1-DOM navigation.js"></script> -->
   <!-- <script src="./lesson2-querySelector.js"></script> -->
@@ -30,5 +51,6 @@
   <!-- <script src="./lesson5-browser-events.js"></script> -->
   <!-- <script src="./lesson6-Event delegation.js"></script> -->
   <!-- <script src="./lesson7-Default browser actions.js"></script> -->
-  <script src="lesson8-Mouse Event Basics.js"></script>
+  <!-- <script src="lesson8-Mouse Event Basics.js"></script> -->
+  <script src="./lesson9-Mouseover.js"></script>
 </html>
