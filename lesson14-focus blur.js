@@ -6,7 +6,6 @@
 let input = document.getElementById('target');
 
 input.addEventListener('focus', function() {
- 
     console.log('focus')
   });
 
